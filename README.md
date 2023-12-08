@@ -1,44 +1,37 @@
 ---
-title: "Index"
-author: "Manuel Gonzalez-Rivero"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
-    code_folding: show
-    collapse: no
-    df_print: paged
-    fig_caption: yes
-    fig_height: 4
-    fig_width: 4
-    highlight: textmat
-    theme: spacelab
-    toc: yes
-    toc_float: yes
-  pdf_document:
-    df_print: default
-    fig_caption: yes
-    fig_height: 4
-    fig_width: 4
-    highlight: tango
-    latex_engine: xelatex
-    number_sections: yes
-    toc_depth: 2
-  word_document:
-    fig_caption: yes
-    fig_height: 4
-    fig_width: 4
-    highlight: tango
-    toc: yes
-    toc_depth: 2
-output_dir: "docs"
-documentclass: article
-fontsize: 12pt
-mainfont: Arial
-mathfont: LiberationMono
-monofont: DejaVu Sans Mono
-classoption: a4paper
-bibliography: ../public/resources/references.bib
+title: "README"
+subtitle: "Various tutorials to enrich the use of ReefCloud for coral reef monitoring and reporting"
+title-block-banner: "#d42555"
+author:
+  - name: "Manuel Gonzalez-Rivero"
+    id: "mgr"
+    affiliations:
+      - "Australian Insitute of Marine Science"
+    orcid: 0000-0003-0252-584X
+funding:
+  - source: "Australian Department of Foreign Affairs"
+    investigator: 
+      - ref: "mgr"
+date: last-modified
+date-format: short
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    code-fold: true
+    smooth-scroll: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: github
+    include: true
+editor: visual
+execute:
+  warning: false
+css: ../resources/styles.css
+bibliography: references.bib
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
