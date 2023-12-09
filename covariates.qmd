@@ -1,8 +1,6 @@
 ---
-layout: "page"
 title: "Environmental data in ReefCloud"
 subtitle: "A summary of environmental data layers available in ReefCloud and brief tutorial on how to access the data in R"
-permalink: "https://reefcloud.github.io/Tutorials/covariates""
 title-block-banner: "#d42555"
 author:
   - name: "Manuel Gonzalez-Rivero"
@@ -30,8 +28,8 @@ format:
 editor: visual
 execute:
   warning: false
-css: ../resources/styles.css
-bibliography: ../resources/references.bib
+css: resources/styles.css
+bibliography: resources/references.bib
 ---
 
 # Introduction
